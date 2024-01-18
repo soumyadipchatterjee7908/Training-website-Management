@@ -1,0 +1,79 @@
+#login {
+  height: 100%;
+  background-image: url(https://shopcreatify.com/cdn/shop/articles/2020-08-06-article-masthead_1600x.jpg?v=1596744573);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 80vh;
+}
+
+#loginlogo {
+  transform: translateX(+970%);
+}
+
+#login {
+  border: 2px solid black;
+  flex: 1;
+  display: flex;
+
+  flex-direction: column;
+}
+
+#loginformwrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logtop {
+  display: flex;
+  justify-content: space-between;
+  background-color: hwb(219 11% 17%);
+  color: white;
+}
+#logtop a {
+  display: flex;
+  align-items: center;
+  color: pink;
+}
+#loginright {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+#loginform {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  box-shadow: 6px 6px 4px gray;
+  height: 40vh;
+  width: 40vw;
+  background-color: wheat;
+  border-radius: 8px;
+  padding: 30px;
+}
+.loginformfields {
+  display: flex;
+}
+.labeldiv {
+  flex: 1;
+  font-size: 1.5rem;
+}
+.inputdiv {
+  flex: 1;
+}
+.inputdiv input {
+  width: 20vw;
+  height: 5vh;
+}
+#submitdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#submitdiv button {
+  height: 8vh;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  background-color: hwb(24 33% 7% / 0.796);
+}

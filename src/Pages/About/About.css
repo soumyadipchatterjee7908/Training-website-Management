@@ -1,0 +1,29 @@
+#a-main-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+#a-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(18, 57%, 64%);
+}
+#c-header h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(189, 136, 136);
+}
+
+#body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+#sss {
+  color: rgb(233, 60, 63);
+}

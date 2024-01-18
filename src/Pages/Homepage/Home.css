@@ -1,0 +1,17 @@
+#home {
+  background-color: #18ddfbaa;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+#home-top {
+  background-image: url(https://img.freepik.com/free-vector/teaching-students-online-internet-learning-computer-programming-online-it-courses-best-online-it-training-online-certification-courses-concept_335657-194.jpg);
+  height: 55vh;
+  background-position: center 50%;
+}
+#card-container {
+  display: flex;
+  padding: 2vh 4vw;
+  flex: 1;
+  flex-direction: column;
+}

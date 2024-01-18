@@ -1,0 +1,55 @@
+#card {
+  display: flex;
+  height: 25vh;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px blue;
+  background-color: whitesmoke;
+  margin: 20px;
+}
+
+#cardleft-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cardleft-image img {
+  height: 100%;
+  width: 100%;
+}
+
+#cardright {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 20px;
+  flex: 3;
+}
+
+#cardright-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 0px;
+  border-bottom: 1px solid black;
+}
+
+#cardright-description {
+  flex: 2;
+
+  font-size: 1.1rem;
+}
+#cardright-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  flex: 1;
+  justify-content: start;
+  border-top: 1px solid black;
+}
+.card-bottom-divs {
+  flex: 1;
+}
